@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    command: python /code/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    environment:
+      - "DJANGO_SECRET_KEY=django-insecure-7vcyuxsn=i7$$hzpxm5apvvf$p)prd&gxxvn-u+vdasd4+1uno#"
+      # 2 dollar on secret key $$
+      - "DJANGO_DEBUG=True"
+
+  db:
+    platform: linux/x86_64
+    image: mysql:5.7
+    environment:
+      - "MYSQL_DATABASE:db"
+      - "MYSQL_ROOT_PASSWORD:M1m3m8m2"
+    ports:
+      - "3306:3306"

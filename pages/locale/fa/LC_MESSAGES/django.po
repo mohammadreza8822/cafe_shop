@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 20:46+0330\n"
+"PO-Revision-Date: 2024-02-15 20:47+0330\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: templates/pages/about.html:8 templates/pages/about.html:10
+#: templates/pages/about.html:11
+msgid "About"
+msgstr "درباره ما"
+
+#: templates/pages/chefs.html:7 templates/pages/chefs.html:9
+#: templates/pages/chefs.html:10
+msgid "Chefs"
+msgstr "آشپز ها"
+
+#: templates/pages/contact.html:7 templates/pages/contact.html:9
+#: templates/pages/contact.html:10
+msgid "Contact"
+msgstr "با ما تماس بگیرید"
+
+#: templates/pages/faq.html:7 templates/pages/faq.html:9
+#: templates/pages/faq.html:10
+msgid "Frequently Asked Questions"
+msgstr "سوالات متداول"
+
+#: templates/pages/food_menu.html:7 templates/pages/food_menu.html:9
+#: templates/pages/food_menu.html:10
+msgid "Menu"
+msgstr "منو"
+
+#: templates/pages/food_menu.html:58 templates/pages/reservation.html:236
+msgid "brakefast"
+msgstr "صبحانه"
+
+#: templates/pages/food_menu.html:79 templates/pages/food_menu.html:129
+#: templates/pages/food_menu.html:179
+msgid "amount"
+msgstr "مقدار"
+
+#: templates/pages/food_menu.html:79 templates/pages/food_menu.html:129
+#: templates/pages/food_menu.html:179
+msgid "gram"
+msgstr "گرم"
+
+#: templates/pages/food_menu.html:89 templates/pages/food_menu.html:139
+#: templates/pages/food_menu.html:189
+msgid "$"
+msgstr "تومان"
+
+#: templates/pages/food_menu.html:111 templates/pages/reservation.html:238
+msgid "lunch"
+msgstr "ناهار"
+
+#: templates/pages/food_menu.html:161 templates/pages/reservation.html:240
+msgid "dinner"
+msgstr "شام"
+
+#: templates/pages/home.html:6 templates/pages/home.html:8
+#: templates/pages/home.html:9
+msgid "home"
+msgstr "خانه"
+
+#: templates/pages/home.html:195
+msgid "new_recipe"
+msgstr "دستورات غذایی جدید"
+
+#: templates/pages/home.html:196
+msgid "try our new food"
+msgstr "غذاهای جدید ما را تجربه کنید"
+
+#: templates/pages/reservation.html:7 templates/pages/reservation.html:9
+#: templates/pages/reservation.html:10
+msgid "Reservation"
+msgstr "رزرو"
+
+#: templates/pages/reservation.html:239
+msgid "dessert"
+msgstr "دسر"
+
+#: templates/pages/reservation.html:252
+msgid "blog"
+msgstr "وبلاگ"

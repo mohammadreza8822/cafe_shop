@@ -1,0 +1,706 @@
+﻿{% extends '_base.html'%}
+{% load static %}
+{% load i18n %}
+
+{% block page_title%}
+    {%trans 'home'%}
+{% endblock page_title%}
+{% block title%}{%trans 'home'%}{% endblock title%}
+{% block rtitle%}{%trans 'home'%}{% endblock rtitle%}
+{% block content%}
+<!-- Custom Cursor -->
+
+<div class="cursor d-none d-lg-block"></div>
+
+<!-- Custom Cursor End -->
+
+<!-- Preloader -->
+
+<div class="intro_sec ">
+    <div class="intro_screen animate">
+        <svg width="607" height="834" viewBox="0 0 607 834" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M470.286 344.294C465.31 342.22 460.75 340.145 455.774 338.485C435.873 331.846 415.971 327.282 396.484 325.208C385.704 323.963 374.924 323.548 364.558 323.548C323.926 323.548 287.854 331.846 256.343 348.443C217.369 368.775 185.858 396.99 163.054 431.014C159.323 436.408 156.006 441.802 153.104 447.196L113.715 322.718C120.763 321.473 127.812 320.229 134.86 317.739C158.079 310.685 178.81 297.823 194.98 279.981C221.101 284.13 247.636 282.47 273.343 274.172C299.049 265.873 321.853 252.181 340.925 233.924C364.144 238.903 388.606 237.658 411.825 230.605C418.873 228.53 425.507 225.626 432.141 222.306L470.286 344.294Z" fill="currentColor"/>
+            <path d="M345.486 21.4822C335.121 24.8016 325.584 29.7807 317.292 36.0046C284.123 4.47029 235.198 -8.80732 188.346 6.13C141.909 20.6524 109.154 59.6554 100.447 104.467C90.0817 104.467 79.7162 105.712 68.9362 109.032C17.109 125.629 -11.9142 180.814 4.67046 233.094C21.2552 284.96 76.3993 314.005 128.641 297.408C153.104 289.524 172.591 272.927 184.614 252.181C209.906 261.309 238.929 262.554 266.709 253.426C294.903 244.712 317.292 226.87 333.047 204.879C354.608 215.252 379.899 217.742 404.776 209.858C456.604 193.261 485.627 138.076 469.042 85.7957C452.872 33.93 397.728 5.30014 345.486 21.4822Z" fill="currentColor"/>
+            <path d="M605.036 652.169C606.695 646.36 607.11 640.551 606.695 635.572C606.695 635.157 606.695 634.742 606.695 633.912L606.28 634.327C605.866 629.763 604.622 625.198 601.72 621.879C601.72 621.879 579.745 662.957 552.38 696.151C535.795 716.067 514.65 732.249 494.334 744.282C474.432 756.315 451.213 762.539 425.922 762.539C397.313 762.539 372.021 756.315 350.876 744.282C330.145 732.664 315.219 717.312 305.683 698.64C296.146 679.554 294.903 662.957 302.366 648.019C311.487 631.422 329.73 618.145 357.095 607.772C372.851 601.548 391.509 596.569 412.654 592.419C433.799 588.27 453.701 582.461 473.188 574.992C492.675 567.109 508.845 556.321 522.528 542.213C536.21 528.106 544.088 507.775 545.746 480.804C545.746 460.473 541.185 442.631 532.064 427.279C522.942 411.512 510.918 398.234 496.407 387.446C481.895 376.658 465.31 367.945 447.482 361.306C429.653 354.667 411.825 350.518 393.996 348.858C345.071 344.709 302.78 351.763 267.538 370.019C231.881 388.691 204.101 413.587 183.371 444.706C162.64 475.825 149.372 511.094 143.567 550.097C137.348 589.515 139.421 627.688 148.957 664.201C158.493 700.715 175.907 733.909 201.614 762.539C227.32 791.583 261.319 811.915 303.195 823.533C313.56 827.267 324.34 829.757 335.535 831.416C346.73 833.076 357.924 833.906 369.119 833.906C395.24 833.906 421.361 829.342 447.482 819.384C475.676 809.01 577.257 757.975 605.036 652.169ZM275.001 618.145C270.855 598.643 267.953 576.652 267.123 552.586C266.294 528.521 268.782 504.87 274.172 482.049C279.976 458.813 288.683 438.482 300.707 420.225C312.731 401.969 330.145 388.691 352.12 380.807C363.315 377.073 373.68 374.998 384.045 374.998C400.215 374.998 414.312 379.563 426.751 388.276C439.19 397.404 447.482 411.097 451.213 430.184C453.287 450.515 451.628 467.527 446.653 482.049C441.677 496.572 434.629 508.604 425.507 518.978C415.971 529.351 405.191 538.479 392.752 546.363C380.314 554.246 367.461 562.13 355.022 570.013C342.584 577.482 330.145 585.366 318.536 593.249C306.512 601.133 296.561 610.676 288.683 621.464C282.049 630.178 277.489 628.933 275.001 618.145Z" fill="currentColor"/>
+        </svg>
+    </div>
+</div>
+
+<!-- Preloader End -->
+
+<!-- back to to button start-->
+<a href="#" id="scroll-top" class="back-to-top-btn"><i class="bi bi-arrow-up"></i></a>
+<!-- back to to button end-->
+
+<!-- Header area -->
+
+
+<div class="site-wrapper">
+
+
+    <!-- Hero -->
+
+    <div class="swiper hero-bg-slide">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="hero-area-two overflow-hidden">
+                    <div class="img-layer" style="background:linear-gradient(180deg, rgba(0, 0, 0, 0.37) 16.65%, #000 100.78%), url({% static 'images/hero/hero-two-bg-1.jpg'%});"></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="hero-info text-center">
+                                    <span class="hero-tag text-white">احساس گرسنگی؟ بیایید</span>
+                                    <h1 class="text_color_white">طعم الهی اپیکوری را کشف کنید</h1>
+                                    <a class='common-btn mt-4' href='contact-01.html'><span>میز کتاب</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="hero-area-two overflow-hidden">
+                    <div class="img-layer" style="background:linear-gradient(180deg, rgba(0, 0, 0, 0.37) 16.65%, #000 100.78%), url({% static 'images/hero/hero-two-bg-2.jpg'%});"></div>
+                    <div class="container h-100">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="hero-info text-center">
+                                    <span class="hero-tag text-white">احساس گرسنگی؟ بیایید</span>
+                                    <h1 class="text_color_white">طعم الهی اپیکوری را کشف کنید</h1>
+                                    <a class='common-btn mt-4' href='contact-01.html'><span>میز کتاب</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero End -->
+
+    <!-- Food Slider -->
+    <div class="food-slide-area position-relative overflow-hidden z-index-one">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="food-slide-wrap overflow-hidden w-100 ">
+                        <div class="swiper food-slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-1.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-2.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-3.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-4.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-1.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-2.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-3.png'%}" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="food-img-wrap">
+                                        <img src="{% static 'images/food-menu/food-slide-4.png'%}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Food Slider End -->
+
+
+    <!-- CTA -->
+
+    <div class="cta-area cta-area-two">
+        <div class="container">
+            <div class="row gy-5 cta-wrap">
+                <div class="col-lg-3 col-md-6 cta-single">
+                    <div class="cta-info text-center wow fadeInLeft" data-wow-delay=".0s">
+                        <h2 class="counter-item">
+                            <span class="odometer d-inline-block" data-odometer-final="15">.</span>
+                            <em>+</em>
+                        </h2>
+                        <p>سالها تجربه</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cta-single">
+                    <div class="cta-info text-center wow fadeInLeft" data-wow-delay=".2s">
+                        <h2 class="counter-item">
+                            <span class="odometer d-inline-block" data-odometer-final="5">.</span>
+                            <em>+</em>
+                        </h2>
+                        <p>استاد آشپزها</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cta-single">
+                    <div class="cta-info text-center wow fadeInLeft" data-wow-delay=".4s">
+                        <h2 class="counter-item">
+                            <span class="odometer d-inline-block" data-odometer-final="200">.</span>
+                            <em>+</em>
+                        </h2>
+                        <p>بازدیدکنندگان روزانه</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cta-single">
+                    <div class="cta-info text-center wow fadeInLeft" data-wow-delay=".6s">
+                        <h2 class="counter-item">
+                            <span class="odometer d-inline-block" data-odometer-final="35">.</span>
+                            <em>+</em>
+                        </h2>
+                        <p>دستاوردها</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA End -->
+
+
+    <!-- Trending -->
+
+    <div class="trending-area pt-120 pb-120 mt-120 bg_color_off_white overflow-hidden">
+        <div class="container custom-container">
+            <div class="row gy-4 justify-content-between">
+                <div class="col-lg-4">
+                    <div class="section-title">
+                        <span>{% trans 'new_recipe'%}</span>
+                        <h2 class="mt-2">{% trans 'try our new food'%}</h2>
+                        <p class="mt-3">هرقدر آدم سالم‌خوری باشید، باز هم روزهایی هست که نمی‌توانید بر وسوسه بوی پیتزا یا گاززدن برگر غلبه کنید. اگر اهل تهرانید یا زیاد به پایتخت سفر می‌کنید، لازم است با بهترین فست فودهای تهران آشنا باشید، چراکه کیفیت رستوران‌ها فرق دارد و شما هم نمی‌خواهید پولتان را دور بریزید!</p>
+                    </div>
+                    <div class="slider-button-wrap d-flex mt-4">
+                        <div class="trending-button-prev-two slide-btn-prev"><i class="bi-arrow-right"></i></div>
+                        <div class="trending-button-next-two slide-btn-next"><i class="bi bi-arrow-left"></i></div>
+                    </div>
+                </div>
+                <div class="col-lg-7 pe-lg-0">
+                    <div class="swiper trending-slider-wrap-two">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="trending-box-two position-relative overflow-hidden">
+                                    <img class="w-100" src="{% static 'images/trending/trending-two-1.png'%}" alt="">
+                                    <div class="trending-two-hover-info w-100 h-100 d-flex justify-content-center align-items-end position-absolute text-center start-0 bottom-0">
+                                        <p class="text_color_white">دسر خامه ای شکلاتی</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="trending-box-two position-relative overflow-hidden">
+                                    <img class="w-100" src="{% static 'images/trending/trending-two-2.png'%}" alt="">
+                                    <div class="trending-two-hover-info w-100 h-100 d-flex justify-content-center align-items-end position-absolute text-center start-0 bottom-0">
+                                        <p class="text_color_white">دسر خامه ای شکلاتی</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="trending-box-two position-relative overflow-hidden">
+                                    <img class="w-100" src="{% static 'images/trending/trending-two-3.png'%}" alt="">
+                                    <div class="trending-two-hover-info w-100 h-100 d-flex justify-content-center align-items-end position-absolute text-center start-0 bottom-0">
+                                        <p class="text_color_white">دسر خامه ای شکلاتی</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="trending-box-two position-relative overflow-hidden">
+                                    <img class="w-100" src="{% static 'images/trending/trending-two-1.png'%}" alt="">
+                                    <div class="trending-two-hover-info w-100 h-100 d-flex justify-content-center align-items-end position-absolute text-center start-0 bottom-0">
+                                        <p class="text_color_white">دسر خامه ای شکلاتی</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trending End -->
+
+
+    <!-- About -->
+
+    <div class="about-area pt-120 pb-120 position-relative z-index-one">
+        <div class="container">
+            <div class="row justify-content-between align-items-center gy-4">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="about-img-wrap position-relative">
+                        <div class="about-img-main-wrap">
+                        </div>
+                        <div class="about-img-hover-wrap position-absolute">
+                            <img class="hover-img" src="{% static 'images/about/about-3.png'%}" alt="">
+                            <a class="vid position-absolute start-50 top-50 translate-middle" href="https://vimeo.com/225811446"><i class="bi bi-play-fill vid-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="section-title">
+                        <span>درباره ما</span>
+                        <h2 class="mt-2">سفر ما به سوی موفقیت شیرین حکایت آرد و شکر</h2>
+                    </div>
+                    <div class="about-content mt-lg-4 mt-3">
+                        <p>هرقدر آدم سالم‌خوری باشید، باز هم روزهایی هست که نمی‌توانید بر وسوسه بوی پیتزا یا گاززدن برگر غلبه کنید. اگر اهل تهرانید یا زیاد به پایتخت سفر می‌کنید، لازم است با بهترین فست فودهای تهران آشنا باشید، چراکه کیفیت رستوران‌ها فرق دارد و شما هم نمی‌خواهید پولتان را دور بریزید!</p>
+                        <div class="about-content-info-wrap align-items-center mt-4 d-flex justify-content-between position-relative">
+                            <ul class="custom-ul check-list flex-shrink-0 flex-grow-1 w-50 ">
+                                <li><i class="bi bi-check-circle"></i><b>محیط دنج و طعم</b></li>
+                                <li><i class="bi bi-check-circle"></i><b>آشپزی خوشمزه برای عاشقان غذا</b></li>
+                            </ul>
+                            <div class="about-content-info-single d-flex flex-column flex-sm-row align-items-center">
+                                <img class="flex-shrink-0" src="{% static 'images/about/ceo-img.png'%}" alt="">
+                                <div class="about-content-info-details text-center text-sm-start">
+                                    <img src="{% static 'images/about/signature.svg'%}" alt="">
+                                    <p><b>موسس و مدیرعامل
+                                    </b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class='common-btn mt-5 wow fadeInUp' data-wow-delay='.4s' href='about.html'><span>بیشتر بدانید</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="position-absolute z-index-minus-one bottom-0 jalil" src="{% static 'images/shape/sp-bag.svg'%}" alt="">
+        <img class="position-absolute z-index-minus-one top-50 jalil1" src="{% static 'images/shape/sp-veg.svg'%}" alt="">
+    </div>
+
+    <!-- About End -->
+
+    <!-- Time -->
+    <div class="time-period-area position-relative z-index-one overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-between align-items-center gy-4">
+                <div class="col-lg-5 text-center text-lg-start">
+                    <div class="section-title text-center text-lg-start">
+                        <h2 class="mt-2 text_color_white">ما بیش از 50 درصد تخفیف در اختیار شما قرار می دهیم</h2>
+                    </div>
+                    <a class='common-btn mt-lg-4 mt-3' href='contact-01.html'><span>دریافت کن</span></a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row gy-5 cta-wrap justify-content-start" id="timer">
+                        <div class="col-lg-4 col-6 cta-single wow fadeInLeft" data-wow-delay=".4s">
+                            <div class="coming-soon-time-wrap">
+                                <div class="coming-soon-single-time text-center">
+                                    <div class="time-wrap-round">
+                                        <h2 class="text_color_white" id="seconds">...</h2>
+                                    </div>
+                                    <h4 class="text_color_white">ثانیه ها</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 cta-single wow fadeInLeft" data-wow-delay=".2s">
+                            <div class="coming-soon-time-wrap">
+                                <div class="coming-soon-single-time text-center">
+                                    <div class="time-wrap-round">
+                                        <h2 class="text_color_white" id="minutes">...</h2>
+                                    </div>
+                                    <h4 class="text_color_white">دقایق
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 cta-single wow fadeInLeft" data-wow-delay=".0s">
+                            <div class="coming-soon-time-wrap">
+                                <div class="coming-soon-single-time text-center">
+                                    <div class="time-wrap-round">
+                                        <h2 class="text_color_white" id="hours">...</h2>
+                                    </div>
+                                    <h4 class="text_color_white">ساعت ها</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg class="position-absolute z-index-minus-one top-0 jalil1" width="177" height="139" viewBox="0 0 177 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.1" d="M46.2675 -4.26877C46.2675 -4.26877 52.8851 -22.8601 72.123 -28.365C91.3609 -33.87 112.199 -27.9126 123.911 -10.3797C135.299 6.66698 136.097 24.7436 129.961 37.2434C124.007 49.3565 105.534 56.4832 105.534 56.4832M112.331 98.0199C112.331 98.0199 119.793 96.2018 127.969 105.911C138.428 118.334 129.978 136.774 129.978 136.774C127.39 127.601 114.737 130.265 103.52 128.688C92.3028 127.111 90.3116 111.769 92.0273 103.745C93.743 95.7207 101.12 90.1754 106.749 90.5796C111.636 90.93 110.702 99.7352 104.56 97.5022C95.4202 94.178 93.7832 80.7982 123.045 61.1434C152.306 41.4885 174.469 72.9283 174.469 72.9283C174.469 72.9283 168.94 72.0612 158.886 78.3515C148.834 84.6461 152.167 86.4556 139.161 91.441C126.154 96.4222 105.474 85.2031 105.474 85.2031M105.475 85.2074C105.475 85.2074 142.348 55.9609 152.491 65.1631C162.634 74.3653 119.558 69.8499 119.558 69.8499M99.8343 105.784C99.8343 105.784 117.789 115.273 120.43 117.526C123.07 119.78 122.082 125.287 118.126 124.261C114.165 123.233 112.093 104.964 112.093 104.964M127.094 78.198C127.094 78.198 134.484 77.3381 140.959 80.3983M-28.6235 35.5325C-23.4479 20.7264 -6.18066 3.21785 19.9274 -2.3833C46.0355 -7.98444 64.7061 -2.93865 80.5491 11.5271C96.3964 25.9915 106.881 62.0194 101.612 79.1592C96.3486 96.3017 85.7316 120.303 52.7757 129.994C21.0683 139.319 -9.50319 126.895 -25.8957 99.7427C-40.4535 75.6277 -33.8019 50.3442 -28.6235 35.5325ZM8.24337 57.9082C6.13394 59.6569 7.30411 65.4412 10.6987 65.2438C14.0947 65.0508 17.578 61.6863 15.9749 59.3967C14.3689 57.1129 10.7863 55.802 8.24337 57.9082ZM64.8743 23.2846C65.2809 20.7847 61.4904 18.0903 59.4594 20.5252C57.4241 22.9616 57.0059 27.3761 59.2201 27.6635C61.4385 27.9495 64.3843 26.2983 64.8743 23.2846ZM18.4359 78.0208C18.1427 80.5346 22.0492 83.0534 23.9696 80.5281C25.8901 78.0028 26.1098 73.5745 23.883 73.3904C21.6603 73.2049 18.7883 74.9918 18.4359 78.0208ZM101.604 -14.7367C100.906 -13.6727 107.845 -2.54426 105.034 -0.617343C102.223 1.30958 100.727 -2.05847 102.075 -3.00484C103.424 -3.94697 112.934 3.91484 114.11 3.07775C115.287 2.2449 109.044 -10.4046 111.833 -10.9136C114.625 -11.4282 115.816 -8.23644 114.214 -7.48771C112.614 -6.74465 102.302 -15.8008 101.604 -14.7367ZM44.7571 10.1173C50.1738 15.7635 44.2386 64.5861 36.9603 60.299C29.6834 56.0162 54.2331 13.3574 61.5819 12.5726C68.9307 11.7878 92.6652 36.2849 88.0068 44.0059C83.3483 51.7269 39.5915 70.1236 38.7833 65.0957C37.975 60.0679 81.417 45.9568 86.4073 52.0948C91.3977 58.2329 92.3233 62.778 91.2478 72.4325C90.1724 82.087 89.2916 94.5968 79.4186 95.7641C69.5499 96.93 35.6682 74.8007 39.9258 69.6673C44.1833 64.5339 70.7747 94.9254 69.2242 106.452C67.9347 116.06 35.4731 129.671 28.1676 118.198C19.6249 104.78 30.6213 71.1208 34.5126 71.7858C38.4038 72.4508 30.2191 112.194 15.0451 115.702C-0.130421 119.205 -15.6814 95.7671 -15.1793 85.1344C-14.6771 74.5017 27.9786 63.3808 30.4121 67.5155C32.8442 71.646 -15.4872 75.6551 -20.6434 71.6061C-25.7997 67.5571 -21.1057 30.7185 -6.18343 28.0829C8.73887 25.4473 36.7665 58.7456 33.3018 62.3492C29.8371 65.9528 -3.09236 29.8319 3.22644 18.512C9.54524 7.19217 37.3037 2.34082 44.7571 10.1173Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/>
+        </svg>
+    </div>
+    <!-- Time End -->
+
+
+    <!-- Discount Menu -->
+
+    <div class="discount-menu-area pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span>منوی تخفیف</span>
+                        <h2 class="mt-2">منوی تخفیف امروز</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-60 gy-4">
+                <div class="col-sm-6 col-lg-4 col-xl-6 wow fadeIn" data-wow-delay=".3s">
+                    <div class="discount-menu-box d-flex flex-column flex-xl-row align-items-center">
+                        <div class="discount-menu-img flex-shrink-0">
+                            <img class="w-100" src="{% static 'images/food-menu/discount-1.png'%}" alt="">
+                        </div>
+                        <div class="discount-menu-info">
+                            <h2 class="h2">دانه های سالاد مرغ</h2>
+                            <ul class="rating custom-ul d-flex align-items-center mt-2 mb-3">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>انواع مختلفی از معابر وجود دارد که کمی باورپذیر به نظر می رسند.</p>
+                            <h3 class="mt-3 mb-3">25.00 تومان <del>50.00 تومان</del></h3>
+                            <a class='common-btn' href='reservation.html'><span>اکنون سفارش دهید</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-6 wow fadeIn" data-wow-delay=".4s">
+                    <div class="discount-menu-box d-flex flex-column flex-xl-row align-items-center">
+                        <div class="discount-menu-img flex-shrink-0">
+                            <img class="w-100" src="{% static 'images/food-menu/discount-2.png'%}" alt="">
+                        </div>
+                        <div class="discount-menu-info">
+                            <h2 class="h2">رشته فرنگی خرچنگ</h2>
+                            <ul class="rating custom-ul d-flex align-items-center mt-2 mb-3">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>انواع مختلفی از معابر وجود دارد که کمی باورپذیر به نظر می رسند.</p>
+                            <h3 class="mt-3 mb-3">25.00 تومان <del>50.00 تومان</del></h3>
+                            <a class='common-btn' href='reservation.html'><span>اکنون سفارش دهید</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-6 wow fadeIn" data-wow-delay=".5s">
+                    <div class="discount-menu-box d-flex flex-column flex-xl-row align-items-center">
+                        <div class="discount-menu-img flex-shrink-0">
+                            <img class="w-100" src="{% static 'images/food-menu/discount-3.png'%}" alt="">
+                        </div>
+                        <div class="discount-menu-info">
+                            <h2 class="h2">رامن تند داغ</h2>
+                            <ul class="rating custom-ul d-flex align-items-center mt-2 mb-3">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>انواع مختلفی از معابر وجود دارد که کمی باورپذیر به نظر می رسند.</p>
+                            <h3 class="mt-3 mb-3">25.00 تومان <del>50.00 تومان</del></h3>
+                            <a class='common-btn' href='reservation.html'><span>اکنون سفارش دهید</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-6 wow fadeIn" data-wow-delay=".6s">
+                    <div class="discount-menu-box d-flex flex-column flex-xl-row align-items-center">
+                        <div class="discount-menu-img flex-shrink-0">
+                            <img class="w-100" src="{% static 'images/food-menu/discount-4.png'%}" alt="">
+                        </div>
+                        <div class="discount-menu-info">
+                            <h2 class="h2">سالاد تخم مرغ سبزیجات</h2>
+                            <ul class="rating custom-ul d-flex align-items-center mt-2 mb-3">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>انواع مختلفی از معابر وجود دارد که کمی باورپذیر به نظر می رسند.</p>
+                            <h3 class="mt-3 mb-3">25.00 تومان <del>50.00 تومان</del></h3>
+                            <a class='common-btn' href='reservation.html'><span>اکنون سفارش دهید</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-6 wow fadeIn" data-wow-delay=".7s">
+                    <div class="discount-menu-box d-flex flex-column flex-xl-row align-items-center">
+                        <div class="discount-menu-img flex-shrink-0">
+                            <img class="w-100" src="{% static 'images/food-menu/discount-5.png'%}" alt="">
+                        </div>
+                        <div class="discount-menu-info">
+                            <h2 class="h2">سالاد تخم مرغ سبزیجات</h2>
+                            <ul class="rating custom-ul d-flex align-items-center mt-2 mb-3">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>انواع مختلفی از معابر وجود دارد که کمی باورپذیر به نظر می رسند.</p>
+                            <h3 class="mt-3 mb-3">25.00 تومان <del>50.00 تومان</del></h3>
+                            <a class='common-btn' href='reservation.html'><span>اکنون سفارش دهید</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-6 wow fadeIn" data-wow-delay=".8s">
+                    <div class="discount-menu-box d-flex flex-column flex-xl-row align-items-center">
+                        <div class="discount-menu-img flex-shrink-0">
+                            <img class="w-100" src="{% static 'images/food-menu/discount-6.png'%}" alt="">
+                        </div>
+                        <div class="discount-menu-info">
+                            <h2 class="h2">سوپ ذرت میگو تند
+                            </h2>
+                            <ul class="rating custom-ul d-flex align-items-center mt-2 mb-3">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>انواع مختلفی از معابر وجود دارد که کمی باورپذیر به نظر می رسند.</p>
+                            <h3 class="mt-3 mb-3">25.00 تومان <del>50.00 تومان</del></h3>
+                            <a class='common-btn' href='reservation.html'><span>اکنون سفارش دهید</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discount Menu End -->
+
+
+    <!-- Chefs -->
+
+    <div class="chefs-area-two pt-120 pb-120 bg_color_off_white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span>استاد آشپزها</span>
+                        <h2 class="mt-2">سرآشپزهای حرفه ای ما</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-60 gy-4">
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay=".0s">
+                    <div class="chef-two-box position-relative overflow-hidden">
+                        <img class="w-100" src="{% static 'images/chef/chef-two-1.png'%}" alt="">
+                        <div class="chef-two-info text-center position-absolute w-100 bottom-0 start-0 bg_color_off_white">
+                            <h2 class="h2">وینسنت سینکلر</h2>
+                            <p class="text_color_yellow">سر آشپز</p>
+                            <ul class="custom-ul social-list chefs-social-three d-flex justify-content-center align-items-center">
+                                <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay=".2s">
+                    <div class="chef-two-box position-relative overflow-hidden">
+                        <img class="w-100" src="{% static 'images/chef/chef-two-2.png'%}" alt="">
+                        <div class="chef-two-info text-center position-absolute w-100 bottom-0 start-0 bg_color_off_white">
+                            <h2 class="h2">وینسنت سینکلر
+                            </h2>
+                            <p class="text_color_yellow">سر آشپز</p>
+                            <ul class="custom-ul social-list chefs-social-three d-flex justify-content-center align-items-center">
+                                <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".4s">
+                    <div class="chef-two-box position-relative overflow-hidden">
+                        <img class="w-100" src="{% static 'images/chef/chef-two-3.png'%}" alt="">
+                        <div class="chef-two-info text-center position-absolute w-100 bottom-0 start-0 bg_color_off_white">
+                            <h2 class="h2">وینسنت سینکلر</h2>
+                            <p class="text_color_yellow">سر آشپز</p>
+                            <ul class="custom-ul social-list chefs-social-three d-flex justify-content-center align-items-center">
+                                <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-60 mt-4">
+                <div class="col-lg-12 text-center">
+                    <a class='common-btn style-border' href='chefs.html'><span>بیشتر ببینید</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chefs End -->
+
+
+    <!-- Testimonial -->
+
+    <div class="testimonial-area bg_color_off_white pt-120 pb-120 position-relative z-index-one overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span>گواهینامه ها
+</span>
+                        <h2 class="mt-2">آنچه مشتری می گوید</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-60">
+                <div class="col-lg-12">
+                    <div class="swiper testimonial-card">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide testimonial-card-single text-center">
+                                <div class="testimonial-card-img">
+                                    <img src="{% static 'images/testimonial/card-1.png'%}" alt="">
+                                </div>
+                                <div class="testimonial-card-info">
+                                    <p>هرقدر آدم سالم‌خوری باشید، باز هم روزهایی هست که نمی‌توانید بر وسوسه بوی پیتزا یا گاززدن برگر غلبه کنید. اگر اهل تهرانید یا زیاد به پایتخت سفر می‌کنید، لازم است با بهترین فست فودهای تهران آشنا باشید، چراکه کیفیت رستوران‌ها فرق دارد و شما هم نمی‌خواهید پولتان را دور بریزید!</p>
+                                    <h2 class="h2">آماندا مورتون</h2>
+                                    <span>مدیر ارشد، </span>
+                                    <ul class="rating custom-ul d-flex justify-content-center align-items-center">
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-card-single text-center">
+                                <div class="testimonial-card-img">
+                                    <img src="{% static 'images/testimonial/card-1.png'%}" alt="">
+                                </div>
+                                <div class="testimonial-card-info">
+                                    <p>هرقدر آدم سالم‌خوری باشید، باز هم روزهایی هست که نمی‌توانید بر وسوسه بوی پیتزا یا گاززدن برگر غلبه کنید. اگر اهل تهرانید یا زیاد به پایتخت سفر می‌کنید، لازم است با بهترین فست فودهای تهران آشنا باشید، چراکه کیفیت رستوران‌ها فرق دارد و شما هم نمی‌خواهید پولتان را دور بریزید!</p>
+                                    <h2 class="h2">آماندا مورتون</h2>
+                                    <span>مدیر ارشد، </span>
+                                    <ul class="rating custom-ul d-flex justify-content-center align-items-center">
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide testimonial-card-single text-center">
+                                <div class="testimonial-card-img">
+                                    <img src="{% static 'images/testimonial/card-1.png'%}" alt="">
+                                </div>
+                                <div class="testimonial-card-info">
+                                    <p>هرقدر آدم سالم‌خوری باشید، باز هم روزهایی هست که نمی‌توانید بر وسوسه بوی پیتزا یا گاززدن برگر غلبه کنید. اگر اهل تهرانید یا زیاد به پایتخت سفر می‌کنید، لازم است با بهترین فست فودهای تهران آشنا باشید، چراکه کیفیت رستوران‌ها فرق دارد و شما هم نمی‌خواهید پولتان را دور بریزید!</p>
+                                    <h2 class="h2">آماندا مورتون</h2>
+                                    <span>مدیر ارشد، </span>
+                                    <ul class="rating custom-ul d-flex justify-content-center align-items-center">
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                        <li><i class="bi bi-star-fill"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card-pagination mt-5 common-pagination text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="testimonial-anim-1 d-none d-lg-block position-absolute z-index-minus-one" src="{% static 'images/testimonial/testimonial-anim-1.svg'%}" alt="">
+        <img class="testimonial-anim-2 d-none d-lg-block position-absolute z-index-minus-one" src="{% static 'images/testimonial/testimonial-anim-2.svg'%}" alt="">
+
+        <img class="position-absolute z-index-minus-one top-0 jalil1" src="{% static 'images/shape/sp-corn.svg'%}" alt="">
+        <img class="position-absolute z-index-minus-one bottom-0 jalil" src="{% static 'images/shape/sp-drinks.svg'%}" alt="">
+    </div>
+
+    <!-- Testimonial End -->
+
+
+
+    <!-- Blog -->
+
+    <div class="blog-area pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span>آخرین وبلاگ</span>
+                        <h2 class="mt-2">آخرین اخبار و وبلاگ ما</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4 pt-60">
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".2s">
+                    <div class="blog-wrap">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="w-100" src="{% static 'images/blog/blog-1.png'%}" alt="">
+                            <a class='position-absolute meta-date' href='blog-details.html'>اسفند<span>27</span></a>
+                        </div>
+                        <div class="blog-info">
+                            <p class="text_color_yellow mt-3 mb-1 text-uppercase">برق</p>
+                            <a href='blog-details.html'><h2 class="h2">بهترین دستور العمل های موفق از سرآشپزهای با تجربه جدید ما</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".4s">
+                    <div class="blog-wrap">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="w-100" src="{% static 'images/blog/blog-2.png'%}" alt="">
+                            <a class='position-absolute meta-date' href='blog-details.html'>اسفند<span>09</span></a>
+                        </div>
+                        <div class="blog-info">
+                            <p class="text_color_yellow mt-3 mb-1 text-uppercase">نوشیدنی</p>
+                            <a href='blog-details.html'><h2 class="h2">بهترین دستور العمل های موفق از سرآشپزهای با تجربه جدید ما</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".6s">
+                    <div class="blog-wrap">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="w-100" src="{% static 'images/blog/blog-3.png'%}" alt="">
+                            <a class='position-absolute meta-date' href='blog-details.html'>اسفند<span>23</span></a>
+                        </div>
+                        <div class="blog-info">
+                            <p class="text_color_yellow mt-3 mb-1 text-uppercase">تند</p>
+                            <a href='blog-details.html'><h2 class="h2">بهترین دستور العمل های موفق از سرآشپزهای با تجربه جدید ما</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog End -->
+
+
+   
+
+</div>
+{% endblock content%}
